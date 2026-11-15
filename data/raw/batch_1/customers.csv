@@ -1,0 +1,106 @@
+customer_id,customer_name,email,signup_date,country,segment
+C0001,Liam Smith,liam.smith1@example.com,2024-10-08,Canada,Consumer
+C0002,Noah Patel,noah.patel2@example.com,2025-11-23,India,Consumer
+C0003,Lena Müller,lena.muller3@example.com,2024-02-02,United States,Consumer
+C0004,Mia Kim,mia.kim4@example.com,2025-06-01,India,Consumer
+C0005,Omar Kim,omar.kim5@example.com,2025-10-27,India,Corporate
+C0006,Mia Jones,mia.jones6@example.com,2025-08-26,United Kingdom,Consumer
+C0007,Noah Müller,noah.muller7@example.com,2024-12-14,United Kingdom,Consumer
+C0008,Mia Nguyen,mia.nguyen8@example.com,2024-04-14,United States,Corporate
+C0009,Liam Nguyen,liam.nguyen9@example.com,2024-12-18,India,Corporate
+C0010,Ava Jones,ava.jones10@example.com,2025-07-03,United States,Corporate
+C0011,Liam Brown,not-an-email,2025-10-05,India,Corporate
+C0012,Lena Kim,lena.kim12@example.com,2024-03-12,United States,VIP
+C0013,Mia Brown,mia.brown13@example.com,2024-03-22,Canada,Consumer
+C0014,Ravi Brown,ravi.brown14@example.com,2025-04-09,United Kingdom,Consumer
+C0015,Zoe Nguyen,zoe.nguyen15@example.com,2024-08-02,United Kingdom,Small Business
+C0016,Liam Garcia,liam.garcia16@example.com,2025-06-30,Canada,Consumer
+C0017,Sara Müller,sara.muller17@example.com,2024-10-03,India,Consumer
+C0018,Zoe Smith,zoe.smith18@example.com,2024-08-22,United States,Corporate
+C0019,Ravi Brown,ravi.brown19@example.com,2024-03-08,Canada,Small Business
+C0020,Zoe Kim,zoe.kim20@example.com,2025-11-02,Germany,Corporate
+C0021,Sara Garcia,sara.garcia21@example.com,2024-09-28,Canada,Consumer
+C0022,Omar Brown,user@,2025-08-21,Germany,Small Business
+C0023,Ravi Nguyen,ravi.nguyen23@example.com,2024-08-12,Canada,Small Business
+C0024,Sara Patel,sara.patel24@example.com,2024-02-18,United States,Consumer
+C0025,Noah Müller,noah.muller25@example.com,2025-09-02,United States,Corporate
+C0026,Ravi Jones,ravi.jones26@example.com,2025-06-25,United Kingdom,Small Business
+C0027,Ava Patel,ava.patel27@example.com,2025-11-29,India,Corporate
+C0028,Zoe Patel,,2024-10-27,Germany,Consumer
+C0029,Sara Smith,sara.smith29@example.com,2024-09-26,India,Consumer
+C0030,Omar Patel,omar.patel30@example.com,2025-10-02,United Kingdom,Small Business
+C0031,Omar Kim,omar.kim31@example.com,2024-06-05,United Kingdom,consumer?
+C0032,Omar Smith,omar.smith32@example.com,2025-09-05,United Kingdom,Corporate
+C0033,Ava Patel,ava.patel33@example.com,2025-01-06,United Kingdom,Consumer
+C0034,Ava Kim,ava.kim34@example.com,2025-08-03,United States,Consumer
+C0035,Sara Patel,sara.patel35@example.com,2025-06-29,Canada,Consumer
+C0036,Sara Garcia,sara.garcia36@example.com,2024-09-28,India,Small Business
+C0037,Ravi Kim,user@,2025-07-06,Canada,Small Business
+C0038,Ethan Müller,ethan.muller38@example.com,2025-11-18,United Kingdom,Corporate
+C0039,Omar Jones,omar.jones39@example.com,2024-05-03,Canada,Consumer
+C0040,Liam Nguyen,liam.nguyen40@example.com,2024-01-22,India,consumer?
+C0041,Mia Kim,mia.kim41@example.com,2024-01-08,United States,Small Business
+C0042,Ava Kim,ava.kim42@example.com,2024-03-10,United States,Corporate
+C0043,Liam Kim,liam.kim43@example.com,2024-10-12,Germany,consumer?
+C0044,Omar Garcia,omar.garcia44@example.com,2025-08-07,India,Corporate
+C0045,Mia Jones,mia.jones45@example.com,2025-02-20,Canada,Consumer
+C0046,Liam Müller,liam.muller46@example.com,2024-12-28,Germany,Corporate
+C0047,Sara Smith,sara.smith47@example.com,2025-11-20,United States,Consumer
+C0048,Ravi Nguyen,ravi.nguyen48@example.com,2024-04-21,Canada,Consumer
+C0049,Mia Jones,mia.jones49@example.com,2024-05-23,Germany,Consumer
+C0050,Ethan Jones,ethan.jones50@example.com,2024-09-12,United States,Corporate
+C0051,Omar Patel,omar.patel51@example.com,2024-02-21,India,Consumer
+C0052,Liam Kim,liam.kim52@example.com,2024-06-19,Germany,Corporate
+C0053,Sara Kim,sara.kim53@example.com,2025-02-14,United States,Consumer
+C0054,Ravi Smith,ravi.smith54@example.com,2025-02-03,United Kingdom,Corporate
+C0055,Ethan Müller,ethan.muller55@example.com,2025-07-23,Germany,Consumer
+C0056,Mia Brown,mia.brown56@example.com,2024-08-10,United States,Small Business
+C0057,Omar Smith,omar.smith57@example.com,2024-11-17,United States,Consumer
+C0058,Lena Jones,lena.jones58@example.com,2025-05-29,India,Consumer
+C0059,Ava Patel,ava.patel59@example.com,2024-07-09,United States,Small Business
+C0060,Liam Kim,liam.kim60@example.com,2025-02-17,United States,Small Business
+C0061,Mia Smith,,2025-09-26,United States,Corporate
+C0062,Lena Nguyen,lena.nguyen62@example.com,2024-09-24,Canada,Small Business
+C0063,Zoe Kim,zoe.kim63@example.com,2024-09-28,Germany,Consumer
+C0064,Ethan Jones,ethan.jones64@example.com,2024-11-19,United States,Consumer
+C0065,Sara Patel,sara.patel65@example.com,2024-03-16,India,Consumer
+C0066,Omar Brown,,2024-05-15,United Kingdom,Consumer
+C0067,Mia Nguyen,mia.nguyen67@example.com,2024-10-18,Canada,Corporate
+C0068,Omar Brown,omar.brown68@example.com,2025-09-18,India,Consumer
+C0069,Omar Brown,omar.brown69@example.com,2025-11-10,United States,Consumer
+C0070,Ethan Patel,ethan.patel70@example.com,2024-04-19,India,Consumer
+C0071,Ethan Brown,ethan.brown71@example.com,2025-09-11,Canada,Small Business
+C0072,Zoe Kim,zoe.kim72@example.com,2025-10-11,United Kingdom,Small Business
+C0073,Sara Brown,sara.brown73@example.com,2024-02-22,United States,Small Business
+C0074,Ravi Brown,ravi.brown74@example.com,2024-02-15,United States,Corporate
+C0075,Noah Brown,noah.brown75@example.com,2024-06-14,Germany,Small Business
+C0076,Ravi Smith,ravi.smith76@example.com,2024-04-24,United States,Small Business
+C0077,Noah Smith,noah.smith77@example.com,2025-01-13,India,Small Business
+C0078,Noah Müller,noah.muller78@example.com,2024-05-10,United States,Corporate
+C0079,Zoe Smith,zoe.smith79@example.com,2025-01-01,Canada,Small Business
+C0080,Mia Patel,mia.patel80@example.com,2025-02-31,India,Corporate
+C0081,Lena Garcia,lena.garcia81@example.com,2024-08-30,Canada,Consumer
+C0082,Ravi Smith,ravi.smith82@example.com,01-15-2025,United Kingdom,Corporate
+C0083,Mia Brown,mia.brown83@example.com,2024-06-12,United States,Corporate
+C0084,Ava Jones,ava.jones84@example.com,2024-08-15,Canada,Corporate
+C0085,Zoe Brown,user@,2024-08-21,Canada,Consumer
+C0086,Mia Müller,mia.muller86@example.com,2024-12-02,United Kingdom,Consumer
+C0087,Ethan Nguyen,,2025-10-18,India,Corporate
+C0088,Omar Nguyen,omar.nguyen88@example.com,2024-01-29,United States,Corporate
+C0089,Noah Brown,noah.brown89@example.com,2024-02-09,United States,Small Business
+C0090,Ravi Nguyen,ravi.nguyen90@example.com,2024-11-17,Germany,Small Business
+C0091,Omar Patel,omar.patel91@example.com,2025-01-29,India,Consumer
+C0092,Ethan Smith,ethan.smith92@example.com,2025-03-22,United States,Small Business
+C0093,Omar Kim,omar.kim93@example.com,2025-01-07,Germany,Consumer
+C0094,Zoe Nguyen,zoe.nguyen94@example.com,01-15-2025,United States,Small Business
+C0095,Ethan Brown,@example.com,2025-11-13,Germany,Corporate
+C0096,Ravi Brown,ravi.brown96@example.com,2025-07-21,Canada,Consumer
+C0097,Ravi Müller,ravi.muller97@example.com,2025-11-24,Canada,Small Business
+C0098,Lena Brown,user@,2025-02-19,India,Consumer
+C0099,Ethan Brown,ethan.brown99@example.com,2024-08-03,Germany,Small Business
+C0100,Lena Nguyen,lena.nguyen100@example.com,2025-04-21,Germany,Corporate
+C0029,Sara Smith,sara.smith29@example.com,2024-09-26,India,Consumer
+C0026,Ravi Jones,ravi.jones26@example.com,2025-06-25,United Kingdom,Small Business
+C0019,Ravi Brown Jr,ravi.brown19@example.com,2024-03-08,Canada,Small Business
+C0004,Mia Kim Jr,mia.kim4@example.com,2025-06-01,India,Consumer
+C0006,Mia Jones Jr,mia.jones6@example.com,2025-08-26,United Kingdom,Consumer

@@ -1,0 +1,90 @@
+# Rule fields
+#   id               unique name, used in results and reject reasons
+#   type             a validator registered in dq_framework/validators.py
+#   column/columns   what the rule applies to
+#   severity         error (default) = reject failing rows | warn = report only
+#   max_failure_pct  tolerance; rule is PASS when failure % <= this (default 0)
+
+datasets:
+
+  sales:
+    file_pattern: "sales_*.csv"
+    target_table: sales
+    primary_key: [order_id]
+    date_format: "%Y-%m-%d"
+    schema:
+      order_id: string
+      order_date: date
+      customer_id: string
+      product_id: string
+      category: string
+      quantity: integer
+      unit_price: float
+      payment_method: string
+      country: string
+    rules:
+      - id: sales_required_columns
+        type: required_columns
+        columns: [order_id, order_date, customer_id, product_id, quantity, unit_price]
+      - {id: sales_order_id_not_null,    type: not_null, column: order_id}
+      - {id: sales_customer_id_not_null, type: not_null, column: customer_id}
+      - {id: sales_order_date_not_null,  type: not_null, column: order_date}
+      - {id: sales_no_duplicate_rows,    type: no_duplicate_rows}
+      - {id: sales_order_id_unique,      type: unique, columns: [order_id]}
+      - {id: sales_quantity_is_integer,  type: dtype, column: quantity, expected: integer}
+      - {id: sales_unit_price_is_number, type: dtype, column: unit_price, expected: float}
+      - id: sales_order_date_valid
+        type: valid_date
+        column: order_date
+        format: "%Y-%m-%d"
+        min_date: "2020-01-01"
+        max_date: today
+      - {id: sales_quantity_positive,    type: numeric_range, column: quantity, min: 1}
+      - {id: sales_unit_price_not_negative, type: numeric_range, column: unit_price, min: 0}
+      - id: sales_payment_method_allowed
+        type: allowed_values
+        column: payment_method
+        values: [Card, Cash, PayPal, Gift Card]
+      - id: sales_category_allowed
+        type: allowed_values
+        column: category
+        values: [Electronics, Home, Clothing, Toys, Grocery]
+      - id: sales_country_known          # informational: rows are still loaded
+        type: allowed_values
+        column: country
+        values: [United States, Canada, United Kingdom, Germany, India]
+        severity: warn
+        max_failure_pct: 2
+
+  customers:
+    file_pattern: "customers*.csv"
+    target_table: customers
+    primary_key: [customer_id]
+    schema:
+      customer_id: string
+      customer_name: string
+      email: string
+      signup_date: date
+      country: string
+      segment: string
+    rules:
+      - id: customers_required_columns
+        type: required_columns
+        columns: [customer_id, customer_name, email, signup_date]
+      - {id: customers_id_not_null,      type: not_null, column: customer_id}
+      - {id: customers_email_not_null,   type: not_null, column: email}
+      - {id: customers_no_duplicate_rows, type: no_duplicate_rows}
+      - {id: customers_id_unique,        type: unique, columns: [customer_id]}
+      - {id: customers_id_format,        type: regex, column: customer_id, pattern: 'C\d{4}'}
+      - id: customers_email_format
+        type: regex
+        column: email
+        pattern: '[^@\s]+@[^@\s]+\.[^@\s]+'
+      - id: customers_signup_date_valid
+        type: valid_date
+        column: signup_date
+        max_date: today
+      - id: customers_segment_allowed
+        type: allowed_values
+        column: segment
+        values: [Consumer, Corporate, Small Business]
